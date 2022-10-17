@@ -1,0 +1,38 @@
+body{
+    font-family: helvetica;
+}
+.form-header{
+    margin-top: 100px;
+    color: lightseagreen;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.js-powered-form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+}
+.js-powered-form input{
+    margin: 20px auto;
+    width: 350px;
+    height: 30px;
+    padding: 5px 20px;
+    border: 1px solid aliceblue;
+    outline: none;
+    box-shadow: 0px 0px 1px rgb(0 0 0 / 50%);
+}
+#js-powered-form-ubmit{
+    width: 392px;
+    height: 40px;
+    background: lightseagreen;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .3s;
+}
+#js-powered-form-ubmit:hover{
+    opacity: .8;
+}

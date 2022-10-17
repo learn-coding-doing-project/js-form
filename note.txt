@@ -1,0 +1,41 @@
+To create a form dynamically with JavaScript, we can use the document.createElement method to create the element.
+
+Then we can use the setAttribute method to set the element attributes.
+
+Then we can use the appendChild method to append the elements into the parent element.Finally append the <form> element to the <body> element of the document. This example creates a Registration form.
+
+** make it a reusable function
+** the function will accept 2 parameter
+    1. number ( the number of input element)
+    2. an object will be passed with element properties, like 
+    let elemObj = [
+        {
+            "type": "text/email/password",
+            "name": "dummy_text",
+            "placeholder": "dummy_placeholder"
+        },
+        {
+            "type": "text/email/password",
+            "name": "dummy_text",
+            "placeholder": "dummy_placeholder"
+        }
+    ]
+
+** testFunction(3, elemObj)
+** 
+
+// For this write a function named 
+
+
+
+let  input = array["text", "email","password"] Value validation of type property
+validation: out of these three types give alert ("input is not allowed")
+let inputProperty=["type","value","placeholder"]
+if these three property are not given then alert("Not accepted");
+
+Note: To learn javascript as a beginner what are the obstacles and how to overcome it. Write 
+your own experience.
+
+*** Task: Make a function to validate the input types initially with creating
+the input. (Before running the loop) (improved Type validation )
+*** Property or Key Validation
