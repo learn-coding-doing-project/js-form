@@ -22,7 +22,7 @@ body{
     outline: none;
     box-shadow: 0px 0px 1px rgb(0 0 0 / 50%);
 }
-#js-powered-form-ubmit{
+#js-powered-form-submit{
     width: 392px;
     height: 40px;
     background: lightseagreen;
@@ -33,6 +33,6 @@ body{
     cursor: pointer;
     transition: all .3s;
 }
-#js-powered-form-ubmit:hover{
+#js-powered-form-submit:hover{
     opacity: .8;
 }

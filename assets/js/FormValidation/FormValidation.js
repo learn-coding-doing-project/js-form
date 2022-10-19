@@ -60,7 +60,7 @@ function createForm(elemObj){
     const s = document.createElement("input");
     s.setAttribute('type', "submit");
     s.setAttribute('value', "Submit");
-    s.setAttribute('id', "js-powered-form-ubmit");
+    s.setAttribute('id', "js-powered-form-submit");
     f.appendChild(s);
 
     document.body.appendChild(f);

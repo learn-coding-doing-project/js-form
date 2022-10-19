@@ -25,3 +25,29 @@ let elemObj=[
 
 // The form creation function
 createForm(elemObj);
+
+// Form input field's empty state validation
+let formSubmitButton = document.getElementById("js-powered-form-submit");
+formSubmitButton.addEventListener("click", function(e) {
+    e.preventDefault()
+    let allInputFields = document.getElementsByClassName("js-powered-form")[0];
+
+    // ES6 way
+    for (const singleInput of allInputFields) {
+        // console.log(singleInput.value)
+        if (!singleInput.value) {
+            alert(`Empty ${singleInput.type} field isn't accepted!`)
+            break;
+        }
+    }
+    
+    // Old school for...loop way
+    // for (i=0; i<allInputFields.length; i++) {
+    //     // console.log(allInputFields[i].value, allInputFields[i].type)
+    //     if (!allInputFields[i].value) {
+    //         alert(`Empty ${allInputFields[i].type} field isn't accepted!`)
+    //         break;
+    //     }
+    // }
+
+})
